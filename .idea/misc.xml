@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Data Magang/2. Belajar/android crud/implicit-intens/app/src/main/res/drawable/input_bg.xml" value="0.187" />
+        <entry key="..\:/Data Magang/2. Belajar/android crud/implicit-intens/app/src/main/res/layout/activity_main.xml" value="0.12" />
+        <entry key="..\:/Data Magang/2. Belajar/android crud/implicit-intens/app/src/main/res/layout/dahsboard.xml" value="1.582142857142857" />
+        <entry key="..\:/Data Magang/2. Belajar/android crud/implicit-intens/app/src/main/res/layout/dashboard.xml" value="0.2" />
+        <entry key="..\:/Data Magang/2. Belajar/android crud/implicit-intens/app/src/main/res/xml/dashboard.xml" value="0.259375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/searchInput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/input_bg"
+        android:drawableStart="@drawable/ic_baseline_web"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="@string/url_website"
+        android:importantForAutofill="no"
+        android:inputType="textUri"
+        android:minHeight="48dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="8dp"
+        android:text="@string/input_website"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnOpenWeb"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/blue"
+        android:text="@string/btn_open_web"
+        android:textColor="@color/black"
+        android:onClick="openWeb"
+        app:layout_constraintEnd_toEndOf="@+id/searchInput"
+        app:layout_constraintStart_toStartOf="@+id/searchInput"
+        app:layout_constraintTop_toBottomOf="@+id/searchInput" />
+
+    <EditText
+        android:id="@+id/locationInput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/input_bg"
+        android:drawableStart="@drawable/ic_baseline_location"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:hint="@string/url_location"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="8dp"
+        android:text="@string/input_location"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnOpenWeb" />
+
+    <Button
+        android:id="@+id/btnLocation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/blue"
+        android:text="@string/btn_open_location"
+        android:textColor="@color/black"
+        android:onClick="openLocation"
+        app:layout_constraintEnd_toEndOf="@+id/locationInput"
+        app:layout_constraintStart_toStartOf="@+id/locationInput"
+        app:layout_constraintTop_toBottomOf="@+id/locationInput" />
+
+    <EditText
+        android:id="@+id/textInput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/input_bg"
+        android:drawableStart="@drawable/ic_baseline_text_fields"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:hint="@string/url_text"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="8dp"
+        android:text="@string/input_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLocation" />
+
+    <Button
+        android:id="@+id/btnText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/blue"
+        android:text="@string/btn_open_text"
+        android:textColor="@color/black"
+        android:onClick="openText"
+        app:layout_constraintEnd_toEndOf="@+id/textInput"
+        app:layout_constraintStart_toStartOf="@+id/textInput"
+        app:layout_constraintTop_toBottomOf="@+id/textInput" />
+
+    <TextView
+        android:id="@+id/openAnotherPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/new_page_title"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnText" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/blue"
+        android:text="@string/new_page"
+        android:textColor="@color/black"
+        android:onClick="newPage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/openAnotherPage" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Implicit Intens</string>
+    <string name="input_website">https://developer.android.com</string>
+    <string name="url_website">Masukkan Url Disini...</string>
+    <string name="btn_open_web">Buka Website</string>
+    <string name="input_location">Depok Sawangan</string>
+    <string name="url_location">Masukkan Lokasi Disini...</string>
+    <string name="btn_open_location">Buka Location</string>
+    <string name="input_text">Kamu kiper terbaik didunia</string>
+    <string name="url_text">Masukkan Text Disini...</string>
+    <string name="btn_open_text">Share Text</string>
+    <string name="new_page_title">Halaman Baru</string>
+    <string name="new_page">Buka Halaman Baru</string>
+    <string name="title_new">List Desserts</string>
+    <string name="donat_text">Donat adalah makanan yang terbaik\ndidunia dan dapat ditemui disegala\nwarung di jalan</string>
+    <string name="img_caption">donat enak</string>
+</resources>
